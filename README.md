@@ -1,5 +1,6 @@
 # TALLER DE DE MODULARIZACIÓN CON VIRTUALIZACIÓN E INTRODUCCIÓN A DOCKER
 
+En este  taller se creo una aplicación web pequeña usando el micro-framework de Spark java. Una vez tengamos esta aplicación procedemos a construir un container docker para la aplicación y los desplegaremos y configuraremos en nuestra máquina local. Luego, creamos un repositorio en DockerHub y subiremos la imagen al repositorio.
 
 ## Diseño de la aplicación
 
@@ -32,9 +33,6 @@ Ingrese en los campos del formulario los valores, de clic en el botón `Search`:
 ![image](https://github.com/AndresOnate/AREP_TALLER5/assets/63562181/c5247754-f588-45cc-a17c-d3c1d6ec1523)
 
 Función Seno:
-
-
-
 
 
 
