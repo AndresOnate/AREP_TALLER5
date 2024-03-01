@@ -43,7 +43,7 @@ Las siguientes instrucciones le permitirán descargar una copia y ejecutar la ap
 
 2. Navegue al directorio del proyecto:
    
-      ``` cd  AREP_TALLER5 ```
+      ``` cd AREP_TALLER5 ```
 
 3. Ejecute el siguiente comando para compilar el código:
 
@@ -55,22 +55,42 @@ Las siguientes instrucciones le permitirán descargar una copia y ejecutar la ap
 
 6. Para iniciar el servidor, ejecute el siguiente comando:
 
-    ``` ava -cp "target/classes:target/dependency/*" org.eci.arep.app.SparkWebServer ```
+    ``` java -cp "target/classes;target/dependency/*" org.eci.arep.app.SparkWebServer ```
 
-7. Verifique en la linea de comanos que se imprimió el mensaje **Listo para recibir ...**
+7. Verifique en la linea de comanos que se está ejecutando la aplicación:
    
+   ![image](https://github.com/AndresOnate/AREP_TALLER5/assets/63562181/f11f64cd-7c95-4dda-825d-4f1ad2b42fe0)
 
 
+   
 ## Probando la Aplicación.  
 
-Ingrese a la siguiente URL para ingresar a el cliente: `http://localhost:34000/index.html`
+Ingrese a la siguiente URL para ingresar a el cliente: `http://localhost:34000/index.html`.
+Si está ejecutando la aplicación desde la máquina virtual de java y no con el contenedor, el puerto es el `4567`.
 
 Ingrese en los campos del formulario los valores, de clic en el botón `Search`:
 
 ![image](https://github.com/AndresOnate/AREP_TALLER5/assets/63562181/c5247754-f588-45cc-a17c-d3c1d6ec1523)
 
-Función Seno:
+- Para las funciones Seno y Coseno ingresé el valor que desea calcular en radianes.
+- Para la función palíndromo ingrese la palabra que quiere evaluar, si la palabra es palíndromo retornará true,  de lo contrario retornará false.
+- Para la función Vector, ingrese las coordenadas de los puntos en el formato **x,y**
 
+Función Seno
+
+![image](https://github.com/AndresOnate/AREP_TALLER5/assets/63562181/d274867a-72f4-4836-928d-1bbfa156466a)
+
+Función Coseno:
+
+![image](https://github.com/AndresOnate/AREP_TALLER5/assets/63562181/ffd854f5-161e-488f-81cb-ee758fd96d32)
+
+Función Palíndromo:
+
+![image](https://github.com/AndresOnate/AREP_TALLER5/assets/63562181/f262cc30-8a0e-4bc4-8f60-fa69fd3dde0f)
+
+Función Vector:
+
+![image](https://github.com/AndresOnate/AREP_TALLER5/assets/63562181/edce534b-8d37-4587-9141-4caaafbd5aea)
 
 
 ## Construido Con. 
