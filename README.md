@@ -4,6 +4,15 @@ En este  taller se creó una aplicación web usando el micro-framework de Spark 
 
 ## Diseño de la aplicación
 
+La aplicación está diseñada para cumplir con los requisitos especificados en el enunciado del taller y proporcionar una experiencia de usuario fluida y satisfactoria. A continuación, se describen los principales componentes y características de la aplicación:
+
+- La clase `SparkWebServer` define un servidor web Java utilizando el framework Spark, configurando rutas para manejar solicitudes HTTP GET en diferentes endpoints. Inicia el servidor en un puerto específico, y establece la ubicación de los archivos estáticos en el directorio `/public`. Además, implementa endpoints para calcular funciones trigonométricas, verificar palíndromos y calcular la distancia entre dos puntos en un plano cartesiano, extrayendo parámetros de las solicitudes HTTP.
+- Se creó un contenedor Docker que encapsula la aplicación `SparkWebServer`, lo que facilita su despliegue y ejecución en diferentes entornos de manera consistente. Este contenedor se configuró para incluir todas las dependencias necesarias y se definió un archivo `Dockerfile` para construirlo adecuadamente. 
+
+## Extensión de la aplicación.
+
+- Se podrían implmentar características adicionales como soporte para otros métodos HTTP.
+
 ## Guía de Inicio
 
 Las siguientes instrucciones le permitirán descargar una copia y ejecutar la aplicación en su máquina local.
